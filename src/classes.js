@@ -1,15 +1,6 @@
 console.info('CLASSES');
 
-class Veiculo {
-  constructor(marca, modelo) {
-    this.marca = marca;
-    this.modelo = modelo;
-  }
-
-  buzinar() {
-    return 'FOOOOOOOOMMMMM';
-  }
-}
+import Veiculo from './veiculo';
 
 class Carro extends Veiculo {
   constructor(marca, modelo) {
