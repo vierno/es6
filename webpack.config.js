@@ -1,5 +1,18 @@
 module.exports = {
-  entry: ['./src/index.js'],
+  entry: [
+    './src/index.js',
+    './src/variables.js',
+    './src/templateLiterals.js',
+    './src/scopes.js',
+    './src/spreadOperator.js',
+    './src/restParams.js',
+    './src/destructuringAssignment.js',
+    './src/arrowFunctions.js',
+    './src/map.js',
+    './src/filter.js',
+    './src/modules.js',
+    './src/classes.js'
+  ],
   output: {
     path: __dirname + '/build',
     filename: 'bundle.js'
