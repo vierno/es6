@@ -11,7 +11,8 @@ module.exports = {
     './src/map.js',
     './src/filter.js',
     './src/modules.js',
-    './src/classes.js'
+    './src/classes.js',
+    './src/generators.js'
   ],
   output: {
     path: __dirname + '/build',
