@@ -11,6 +11,7 @@ module.exports = {
     './src/filter.js',
     './src/modules.js',
     './src/classes.js',
+    './src/promises.js',
   ],
   output: {
     path: __dirname + '/build',
