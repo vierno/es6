@@ -1,16 +1,18 @@
-console.info('VARIABLES');
+console.groupCollapsed('VARIABLES');
 
 var a = 100;
 
-console.log(a);
+console.log("a", a);
 
+// Variável
 let b = 100;
-b += a;
+b = b + 23;
+console.log("b", b);
 
-console.log(b);
-
+// Constante
 const c = 'Foobar';
+// A próxima linha gera um erro
+// c = 'Barfoo';
+console.log("c", c);
 
-// c = 'Barfoo'; <- gera erro
-
-console.log(c);
+console.groupEnd();

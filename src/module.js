@@ -1,4 +1,2 @@
-const jedis = ['Yoda', 'Obi-Wan', 'Luke'];
-const siths = ['Darth Vader', 'Darth Maul'];
-
-export { jedis, siths };
+export const jedis = ['Yoda', 'Obi-Wan', 'Luke'];
+export const siths = ['Darth Vader', 'Darth Maul'];

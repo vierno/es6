@@ -1,4 +1,4 @@
-console.info('SCOPES');
+console.groupCollapsed('SCOPES');
 
 var a = 'Foo';
 
@@ -29,3 +29,5 @@ function print() {
 // console.log(c); <- gera erro
 
 print();
+
+console.groupEnd();

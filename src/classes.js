@@ -1,4 +1,4 @@
-console.info('CLASSES');
+console.groupCollapsed('CLASSES');
 
 import Veiculo from './veiculo';
 
@@ -24,6 +24,4 @@ const moto = new Moto('Harley Davidson', 'Street Bob');
 
 console.log(moto.marca, moto.modelo, moto.rodas, moto.buzinar());
 
-import Calculadora from './calculadora';
-
-console.log(`Resultado da soma: ${Calculadora.somar(2, 2)}`); // 4
+console.groupEnd();

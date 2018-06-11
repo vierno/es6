@@ -1,21 +1,21 @@
-console.info('DESTRUCTURING ASSIGNMENT');
+console.groupCollapsed('DESTRUCTURING ASSIGNMENT');
 
 const numeros = [1, 2, 3];
 
-let [um, dois] = numeros;
+const [um, dois] = numeros;
+// var um = numeros[0]; var dois = numeros[1];
 
 console.log(um, dois);
+// 1 2
 
 const moto = { nome: 'Fat Bob', marca: 'Harley Davidson', cilindrada: 1600 };
 
-let { nome, marca, cilindrada } = moto;
+const { nome, marca, cilindrada } = moto;
+// var nome = moto.nome;
+// var marca = moto.marca;
+// var cilindrada = moto.cilindrada;
 
 console.log(`Marca: ${marca} - Modelo: ${nome} - CC: ${cilindrada}`);
+// Marca: Harley Davidson - Modelo: Fat Bob - CC: 1600
 
-const guitarra = { modelo: 'Ghost', fabricante: 'Chapman', cordas: 7 };
-
-let modelo, fabricante, cordas;
-
-({ modelo, fabricante, cordas } = guitarra);
-
-console.log(`Fabricante: ${fabricante} - Modelo: ${modelo} - Cordas: ${cordas}`);
+console.groupEnd();

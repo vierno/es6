@@ -1,4 +1,4 @@
-console.info('ARROW FUNCTIONS');
+console.groupCollapsed('ARROW FUNCTIONS');
 
 // esta função não é anônima
 function saudacoes() {
@@ -19,3 +19,5 @@ saudacoes();
 saudacao();
 
 ola();
+
+console.groupEnd();

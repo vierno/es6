@@ -1,8 +1,8 @@
-const jediGreeting = () => {
+export const jediGreeting = () => {
   console.log('May the force be with you!');
 }
 
-const sithGreeting = () => {
+export const sithGreeting = () => {
   console.log('Come to the dark side!');
 }
 

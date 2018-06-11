@@ -1,4 +1,4 @@
-console.info('REST PARAMS');
+console.groupCollapsed('REST PARAMS');
 
 function minhaFuncao(primeiro, ...lista) {
   console.log('Primeiro parâmetro:', primeiro);
@@ -8,3 +8,5 @@ function minhaFuncao(primeiro, ...lista) {
 minhaFuncao('Olá', 'Mundo');
 
 minhaFuncao('Olá', 'Mundo', 'Incrível');
+
+console.groupEnd();

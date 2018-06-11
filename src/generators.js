@@ -1,4 +1,4 @@
-console.info('GENERATORS');
+console.groupCollapsed('GENERATORS');
 
 function* contador() {
   let cont = 0;
@@ -24,3 +24,5 @@ let it = iterador(1, 2, 3);
 console.log(it.next().value); // 1
 console.log(it.next().value); // 2
 console.log(it.next().value); // 3
+
+console.groupEnd();
